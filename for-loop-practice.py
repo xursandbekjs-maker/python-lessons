@@ -1,8 +1,2 @@
-
-a = 5; b = 3
-a, b=b, a
-print(a, b)
-
-a = 3
-b = 5
-print(a + b)
+a = 5
+print(a)
