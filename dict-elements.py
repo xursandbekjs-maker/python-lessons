@@ -79,8 +79,10 @@ for mahsulot in sorted(mahsulotlar):
     print(mahsulot.title())
 
 # values() metodi - lug'atdagi qiymatlarni list sifatida olish
-
-
+print(mahsulotlar.values()) # dict_values([10000, 20000, 40000, 25000, 30000])
+print("Do'konimizdagi narxlar:")
+for narx in mahsulotlar.values():
+    print(narx)
 
 telefonlar = {
     'ali':'iphone x',
