@@ -1,15 +1,16 @@
-# Function - ma'lum bir vazifani bajaradigan kod blokidir. 
-# Ularni qayta ishlatish mumkin va ular dastur tuzilishini yaxshilaydi.
 
-# def salom_ber():
-#     print("Assalomu alaykum!")
+#Function - ma'lum bir vazifani bajaradigan kod blokidir. 
+#Ularni qayta ishlatish mumkin va ular dastur tuzilishini yaxshilaydi.
 
-# salom_ber() # Funksiyani chaqirish
-# salom_ber() # Funksiyani yana bir marta chaqirish
+def salom_ber():
+    print("Assalomu alaykum!")
 
-# FUNKSIYAGA QIYMAT UZATISH
-# parametrlar.
-# argumentlar.
+salom_ber() # Funksiyani chaqirish
+salom_ber() # Funksiyani yana bir marta chaqirish
+
+#FUNKSIYAGA QIYMAT UZATISH
+parametrlar.
+argumentlar.
 def salom_ber(ism):
     print(f"Assalomu alaykum, {ism}!")
 
