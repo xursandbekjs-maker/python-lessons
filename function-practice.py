@@ -38,3 +38,7 @@ def katta_kichik_hisobla(a, b):
         print(f"{a} {b} dan kichik.")
     else:
         print("Ikkala son teng.")
+# 5.
+def daraja_hisobla(x, y):
+    """Foydalanuvchidan ikkita son qabul qilib, birinchi sonni ikkinchi son darajasiga ko'taradigan funksiya"""
+ 
