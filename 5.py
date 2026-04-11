@@ -19,3 +19,19 @@ print(s)
 # number = 3; 3 + 3 = 6 = s 
 # number = 4; 6 + 4 = 10 = s
 # number = 5; 10 + 5 = 15 = s
+# Natija: s = 15
+
+
+
+
+
+
+
+
+import math
+n = int(input())
+son = 0
+for number in range(1, n + 1):
+    s += int(math.sqrt(number))
+
+print(s)
