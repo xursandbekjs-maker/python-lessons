@@ -1,4 +1,3 @@
 matn = input()
-for index in range():
-
-    print(index)
+for index in matn[::2]:
+    print(matn, index = " ")
