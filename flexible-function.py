@@ -42,4 +42,20 @@ def avto_info(kompaniya, model, **malumotlar):
     return malumotlar
 
 print(avto_info("GM Uzbekistan", "Onix", rang = "qora", yil = 2025))
-print()
+print(avto_info("Kia", "K5", rang = "oq", narh = 35000))
+
+
+def my_function(**kid):
+    print(kid)
+    print("His last name is " + kid["lname"])
+
+my_function(fname = "Tobias", lname = "Refsnes")
+
+# Amaliyot
+# 1. istalgancha sonlarni qabul qilib, ularning o'rtacha qiymatini qaytaruvchi funksiya yozing.
+def multiple(*numbers):
+    result = 1
+    for number in numbers:
+        result *= number
+    return result
+print(multiple(5, 3, 8, -9, -6))
