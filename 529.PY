@@ -1,5 +1,5 @@
 # map(func, iterable)
-def map_divisors_count(son):
+def divisors_count(son):
     count = 0
     # natural bo'luvchilari = 0, 1, 2, ... 9, ... son
     for i in range(1, son + 1):
