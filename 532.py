@@ -1,4 +1,5 @@
-def filter_prime(sequence):
+
+def filter_primes(sequence):
     def is_prime(n):
         if n < 2:
             return False
@@ -9,4 +10,5 @@ def filter_prime(sequence):
 
     return filter(is_prime, sequence)
 
-print(list(filter_prime([5, -8, 5, 0, 12, -5])))
+# Tekshirish uchun:
+print(list(filter_primes([11, 1, 10, 9, 2, 5, 4]))) # Natija: [11, 2, 5]
