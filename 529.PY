@@ -8,5 +8,7 @@ def map_divisors_count(son):
 
     return count
 
-print(map_divisors_count(10)) # 4
-print(map_divisors_count(-2)) # 0
+def map_divisors_count(sequence):
+    return map(lambda x: map_divisors_count(x), sequence)
+
+print(list(map_divisors_count([10, -2]))) # [4, 0]
